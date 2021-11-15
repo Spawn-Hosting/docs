@@ -5,7 +5,6 @@ You can get a domain of your choice for your minecraft server!
 
 :::
 
-You can get a domain of your choice for your minecraft server!
 - Firstly you have to buy a domain or get a free one from **https://freenom.com**.
 - Setup the domain on **https://www.cloudflare.com/**.
 
