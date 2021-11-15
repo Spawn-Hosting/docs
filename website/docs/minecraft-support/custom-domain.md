@@ -1,8 +1,13 @@
 # Custom Domain
+:::info
+
+You can get a domain of your choice for your minecraft server!
+
+:::
 
 You can get a domain of your choice for your minecraft server!
 - Firstly you have to buy a domain or get a free one from **https://freenom.com**.
-- Setup the domain on **https://Cloudflare.com**.
+- Setup the domain on **https://www.cloudflare.com/**.
 
 # Getting a domain
 
@@ -25,5 +30,6 @@ You can get a domain of your choice for your minecraft server!
         - The **Service** should be **_minecraft**.
         - The **Port** should be the port of your server.
         - The **Target** should be yourdomain.com
+
 
 You can now join your server from the custom IP.
