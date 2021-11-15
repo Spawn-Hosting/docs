@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Spawn-Hosting', // Usually your GitHub org/user name.
-  projectName: 'website-test', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   presets: [
     [
