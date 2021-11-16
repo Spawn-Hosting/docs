@@ -1,63 +1,44 @@
-What are commands?
-Commands can be used in Minecraft to perform additional functions or special functions. Minecraft itself already contains over 100 commands without any modification, which can be used to activate, manage or perform a wide variety of functions.
+## What Are Commands? 
+Commands can be used in Minecraft to perform additional functions or special functions. Minecraft itself already contains over 100 commands without any modification.
+## Commands
+``/tp``
+With this command, administrators can teleport to other players or even teleport a player to a desired target player. The command can also be used to teleport mobs or to teleport themselves to this location by entering coordinates as an example.
 
-In this article of our documentation we will go into the most important commands, which are used and needed very often. If a command is not listed here, the official Minecraft-Wiki is very helpful, because every part (including all commands) is explained in detail.
+### Examples:
 
-Use
-Every command always starts with a "/". So if you want to use a command, you have to open the chat in game and type the "/" first, then you can write the command itself. By pressing the TAB key a preview of all available commands is displayed. With this, commands can also be quickly and easily completed automatically as known from search queries on the Internet.
-
-If you should execute commands via the console, the "/" is unnecessary and must be removed! This character is only used to be able to distinguish between a normal chat message or a command in the game.
-
-Rights / Permissions
-To be able to use commands, the necessary rights are required. In Minecraft-Vanilla or Forge there is no real permission system that can be used by plugins like in Spigot. Here only the level system of the OP-rights can be used. Here you can find a tutorial about the OP-rights system: Klick
-
-If a permission system has been installed and it is desired to assign rights to certain Minecraft commands, the respective permissions can be assigned as described below.
-
-The syntax of the permissions for each command is always the same and can be adjusted accordingly. If you want to assign permissions for the Locate command as an example, the following permissions must be set: minecraft.command.locate
-
-Commands
-/tp
-With the /tp command, administrators can teleport to other players or even teleport a player to a desired target player. The command can also be used to teleport mobs or to teleport themselves to this location by entering coordinates as an example. Further details can be found below.
-
-Examples:
-
-/tp PlayerA
+``/tp PlayerA``
 
 Teleports the executor of the command to another player.
 
-/tp PlayerA PlayerB
+``/tp PlayerA PlayerB``
 
 Teleports playerA to playerB. No matter who executes the command, the specified players get teleported. If the executor of the command is PlayerB, PlayerA would be teleported to himself.
 
-/tp -100 75 985
+``/tp -100 75 985`` **(X=-100, Y=75, Z=985)**
 
 The executor of the command is teleported to the specified coordinates. By specifying a player in front of the coordinates (/tp PlayerA -100 75 985), the command would teleport the specified player there instead of teleporting itself.
 
-/tp @s @e[type=minecraft:cow,distance=..10,limit=1]
+``/locate``
+With this ``/locate`` command it is possible to get the coordinates of the building you are looking for, like a Villager village.Beispiele:
 
-Teleports you to the next cow within a 10 block radius. @s can also be swapped with a player like PlayerA, which would teleport that player.
-
-/locate
-With the /locate command it is possible to get the coordinates of the building you are looking for, like a Villager village.Beispiele:
-
-/locate fortress
+``/locate fortress``
 
 Finds and prints the position of the next Nether fortress when you are in the Nether.
 
-/locate village
+``/locate village``
 
 Finds and displays the position in the same way as for Netherfestaus, but in this case for a Villager village.
 
-/worldborder
+``/worldborder``
 With this command a world border can be created within the current world. This prevents players from exploring the world any further than specified with this command.
 
-Examples:
+### Examples:
 
-/worldborder center 0 0
+``/worldborder center 0 0``
 
 This sets the center point of the world to the coordinates 0;0, from where the radius is calculated and set.
 
-/worldborder set 16000
+``/worldborder set 16000``
 
 Sets the limit to 16,000x16,000 blocks. So this would be 8,000 blocks radius in each direction.
 
@@ -66,7 +47,7 @@ This allows players (or even entities) to be given normal potion effects. Some e
 
 The command has changed during the course of the versions and has been further expanded and modified. The examples for the commands shown below are from the latest version and may therefore look different in older versions!
 
-Examples:
+### Examples:
 
 ``/effect give PlayerA minecraft:speed``
 
@@ -75,7 +56,7 @@ This will give the player PlayerA a speed effect of **Sss 1.
 ``/gamerule``
 This command can be used to change special settings in a world or to enable/disable special functions. For example, as shown in the example below, it can be activated that players keep their inventory in case of death.
 
-Examples:
+### Examples:
 
 ``/gamerule keepInventory true``
 
@@ -96,7 +77,7 @@ This command can be used to exclude a player from the server, so that the player
 
 On servers with deactivated online mode, players can change their names and regain access. In such a case, an IP ban through plugins would be the best solution.
 
-Examples:
+### Examples:
 
 ``/ban PlayerA``
 
@@ -109,7 +90,7 @@ By executing this command all current players on the server get banned by the se
 ``/pardon``
 By using this command it is possible to unban (as described one point above) so that the player can re-enter the server.
 
-Examples:
+### Examples:
 
 ``/pardon Player``
 
@@ -118,7 +99,7 @@ The player Player will be removed from the ban list and can re-enter the server.
 ``/kick``
 This command closes the connection between the server and the specified player. This forces the player to leave the server but he can still reconnect.
 
-Examples:
+### Examples:
 
 ``/kick PlayerA``
 
