@@ -1,37 +1,50 @@
-Assign OP To Player's
-In order to be able to assign OP-rights to yourself or other players, you first have to open the console of the server.
+## Assign OP rights
 
-To open the console, the respective server must first be called via the Dashboard. In the interface of the server you will find the entry "Live Console" on the left side of the list under the tab "INFORMATION".
-
+So that you can assign OP rights to yourself or other players, you must first call up the console, provided that no other player has sufficient OP rights so that the assignment is possible in the game itself.
 
 
-Now you should see a dark window representing the console of the server. Underneath it, you can see an input field where any commands are passed to the console. In order to set the OP rights, the command "op " (without "/") must be entered into the input field and then the green button "Send command" has to be clicked to send the command to the console.
+In order to open the console, the respective server must first be called up via the ** Dashboard **. When you arrive at the server interface, you will find the entry "Live Console" on the left in the list under the tab "INFORMATION", via which the console can be opened.
 
+![](/img/op/op1.png)
 
+You should now see a dark window showing what the server's console is. An input field can be seen underneath, where all commands are passed to the console so that they can be executed there. In order to set the OP rights, the command "op player" (without "/") must be entered in the input field and then the green button "Send command" must be clicked so that the command is sent to the console .
 
-After a few seconds, the command sent should appear in the console, followed by the message "Made a server operator", which marks the action as successful. Now the respective player has all OP-rights and can for example change the game mode.
+! [] (https://screensaver01.zap-hosting.com/index.php/s/WRxLdk9Hr7t43EX/preview)
 
-The distribution of OP-rights is now also possible in the game itself, so that you should adjust the rights level as explained in the next step, if you wish to do so.
+After a few seconds, the command sent should appear in the console, followed by the message "Made player a server operator", which marks the process as successful. Now the respective player has all operating rights and can, for example, change the game mode.
 
-Rights level
-The OP rights are divided into four levels, whereby level 4 is always set by default. The respective levels contain different rights, so that the rights can be roughly divided according to the player. The respective rights of a level are as follows:
+:::info
 
-Level	Description	Permissions
-1	Moderator	Changes within the protected spawn area can be made.
-2	Gamemaster	Set and edit command blocks, and execute various cheat commands (e.g.: /gamemode).
-3	Admin	Kicking and banning players, as well as other commands that are part of the general administration of the server. Additional operators can also be appointed.
-4	Owner	No more restrictions in place.
-By installing a permissions plugin like LuckPerms on your Bukkit/Spigot server, you can set the permissions much more specific and detailed. It is also possible to create multiple groups, which simplifies the distribution of rights.
+The distribution of OP rights is now also possible in the game itself, so that you should adjust the rights level as explained in the next step, if you wish.
 
-Assign rights level
-In order to adjust the level of a player, he must first be appointed as an Operator, as explained under "Granting OP-Rights". To adjust the level, the file "ops.json" must be edited via FTP connection.
+:::
 
-As soon as the connection to the server has been established via FTP, you have to navigate to the respective directory of the server. Now in our case at FileZilla you have to right-click on the file and click on "View/Edit" in the menu that appears.
+## Rights level
 
+The OP rights are divided into four levels, whereby level 4 is always set by default. The respective levels contain different rights, so that the rights can be roughly divided depending on the player. The respective rights of a level are as follows:
 
+| Level | Designation | Rights |
+| : -----: |: -------------: | : -----: |
+| 1 | Moderator | Changes can be made within the protected spawn area. |
+| 2 | Gamemaster | Set and edit command blocks and execute various cheat commands (e.g. / gamemode). |
+| 3 | Admin | Kicking and banning players, as well as other commands that are part of the general administration of the server. Further operators can also be appointed. |
+| 4 | Owner | There are no more restrictions. |
 
-Now the value of "level" must be set to the desired level for the desired player, whereupon the file must be saved with STRG+S.
+:::info
+By installing a rights plug-in such as LuckPerms on your Bukkit / Spigot server, the rights can be set in a much more specific and detailed manner. In addition, several groups can be created, which simplifies the distribution of rights.
 
+:::
 
+### Assign rights level
 
-In order for the changes to take effect, the server must be restarted, which is possible by holding the red Stop button in the server interface.
+In order to adjust the level of a player, he must first be appointed as operator, as explained under "Assigning OP rights". So that the level can be adjusted, the file "ops.json" has to be edited using an FTP connection.
+
+As soon as the connection to the server has been established via FTP, you have to navigate to the respective directory of the server. Now in our case at FileZilla a right-click on the file must be made and in the menu that appears, click on "View / Edit".
+
+! [] (https://screensaver01.zap-hosting.com/index.php/s/6c7rCgRmRzaw6K3/preview)
+
+Now the value of "level" has to be set to the desired level for the desired player, whereupon the file has to be saved with ** CTRL + S **.
+
+! [] (https://screensaver01.zap-hosting.com/index.php/s/9RsLFQqCEGbsXcM/preview)
+
+In order for the changes to take effect, the server must be restarted, which can be done by holding the red stop button in the server's interface.
