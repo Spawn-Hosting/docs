@@ -14,10 +14,10 @@ Make sure your world is compatable with the server version you are using.
 
 ``step 2``
 
-- Replace the files named **world**,**world_nether** and **world_the_end**.
+- Replace the files named **world**, **world_nether** and **world_the_end**.
 
 :::important
 
-The new files should be name properly **world**,**world_nether** and **world_the_end**.
+The new files should be name properly **world**, **world_nether** and **world_the_end**.
 
 :::
