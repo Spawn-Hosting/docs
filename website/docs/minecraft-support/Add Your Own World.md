@@ -8,6 +8,8 @@ Make sure your world is compatable with the server version you are using.
 
 :::
 
+# Paper
+
 ``step 1``
 
 - Click File Manger.
@@ -21,3 +23,4 @@ Make sure your world is compatable with the server version you are using.
 The new files should be name properly **world**, **world_nether** and **world_the_end**.
 
 :::
+

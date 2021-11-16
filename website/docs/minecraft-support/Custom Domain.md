@@ -31,4 +31,4 @@ Get a custom domain for your Minecraft server!
         - The **Target** should be yourdomain.com
 
 
-You can now join your server from the custom IP.
+You can now join your server from the custom IP. 
