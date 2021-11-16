@@ -7,11 +7,13 @@
 ``step 2``
  
  - Once logged in, go to the profile settings and verify with discord.
+
 :::important
 
 Your account needs to be verified with discord so we can support you more efficiently when you open a ticket.
 
 :::
+
 ``step 3``
 - Verify your email if you have't already, this is similar to verifying discord.
 
@@ -20,6 +22,7 @@ Your account needs to be verified with discord so we can support you more effici
 - Click the store section.
 - Chose how many credits you want to top-up onto your account.
 - Payout with paypal.
+
 :::info
 
 100 credits = $1 (USD)
@@ -30,6 +33,6 @@ Your account needs to be verified with discord so we can support you more effici
 
 - Go to the servers tab.
     - Click create server.
-    -Select the configuration you want.
+    - Select the configuration you want.
 
 You server is now ready. You can login into the gamepanel using the same login information.

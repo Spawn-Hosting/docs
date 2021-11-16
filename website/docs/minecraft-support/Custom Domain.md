@@ -1,7 +1,7 @@
 # Custom Domain
 :::info
 
-You can get a domain of your choice for your minecraft server!
+Get a custom domain for your Minecraft server!
 
 :::
 
