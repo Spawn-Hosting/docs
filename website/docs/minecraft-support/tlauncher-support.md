@@ -10,7 +10,16 @@ Turn Off The Server Before Doing Edits To The Files
 
 :::
 - Click **file manager** in the game panel.
-- Click **server.properties**.
-- Locate **offline-mode: true** and change **true** to **false**.
-- If your server is running, restart it.
 
+![Locale Dropdown](/img/offlinemode/ofm1.png)
+
+
+- Click **server.properties**.
+
+![Locale Dropdown](/img/offlinemode/ofm2.png)
+
+- Locate ``offline-mode: true`` and change **true** to **false**.
+
+![Locale Dropdown](/img/offlinemode/ofm3.png)
+
+- If your server is running, restart it.
