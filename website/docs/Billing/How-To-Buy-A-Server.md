@@ -35,4 +35,4 @@ Your account needs to be verified with discord so we can support you more effici
     - Click create server.
     - Select the configuration you want.
 
-You server is now ready. You can login into the gamepanel using the same login information.
+You server is now ready. You can login the gamepanel using the same login information.
