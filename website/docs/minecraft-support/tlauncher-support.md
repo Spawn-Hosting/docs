@@ -1,3 +1,4 @@
+
 # Offline Mode
 :::info
 
@@ -24,4 +25,4 @@ Turn off the server before editing files.
 
 ![Locale Dropdown](/img/offlinemode/ofm3.png)
 
-You can now turn on your server.
+- You can now turn on your server.

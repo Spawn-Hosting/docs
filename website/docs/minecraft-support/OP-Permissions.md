@@ -1,17 +1,26 @@
+
 ## Assign OP rights
 
-So that you can assign OP rights to yourself or other players, you must first call up the console, provided that no other player has sufficient OP rights so that the assignment is possible in the game itself.
+:::caution
+
+The Server Should Be ``ON`` In Order To Run Commands.
+
+:::
+
+- So that you can assign OP rights to yourself or other players, you must first go the console, provided that no other player has sufficient OP rights so that the assignment is possible in the game itself.
 
 
-In order to open the console, the respective server must first be called up via the ** Dashboard **. When you arrive at the server interface, you will find the entry "Live Console" on the left in the list under the tab "INFORMATION", via which the console can be opened.
+- First open the server your want to get ``OP Rights`` via The panel. When you arrive at the server interface, you will find the entry "Console".
 
 ![](/img/op/op1.png)
 
-You should now see a dark window showing what the server's console is. An input field can be seen underneath, where all commands are passed to the console so that they can be executed there. In order to set the OP rights, the command "op player" (without "/") must be entered in the input field and then the green button "Send command" must be clicked so that the command is sent to the console .
+- You should now see a dark window showing server's console. An input field can be seen underneath, where you can enter your commands. In order to set the OP rights, the command ``op {Player-Name}`` (without "/") must be entered in the input field and then hit enter so that the command is sent to the console .
 
-! [] (https://screensaver01.zap-hosting.com/index.php/s/WRxLdk9Hr7t43EX/preview)
+![](/img/op/op2.png)
 
-After a few seconds, the command sent should appear in the console, followed by the message "Made player a server operator", which marks the process as successful. Now the respective player has all operating rights and can, for example, change the game mode.
+- After a few seconds, the command sent should appear in the console, followed by the message "Made player a server operator", which marks the process as successful. Now the respective player has all operating rights and can, for example, change the game mode.
+
+![](/img/op/op3.png)
 
 :::info
 
@@ -37,14 +46,14 @@ By installing a rights plug-in such as LuckPerms on your Bukkit / Spigot server,
 
 ### Assign rights level
 
-In order to adjust the level of a player, he must first be appointed as operator, as explained under "Assigning OP rights". So that the level can be adjusted, the file "ops.json" has to be edited using an FTP connection.
+- In order to adjust the level of a player, he/she must first be appointed as operator, as explained under "Assigning OP rights". So that the level can be adjusted, the file ``ops.json`` has to be edited in file manager.
 
-As soon as the connection to the server has been established via FTP, you have to navigate to the respective directory of the server. Now in our case at FileZilla a right-click on the file must be made and in the menu that appears, click on "View / Edit".
+- You have to navigate to the respective directory of the server. left-click on the file to open the file and edit the file".
 
-! [] (https://screensaver01.zap-hosting.com/index.php/s/6c7rCgRmRzaw6K3/preview)
+![](/img/op/op4.png)
 
-Now the value of "level" has to be set to the desired level for the desired player, whereupon the file has to be saved with ** CTRL + S **.
+- Now the value of "level" has to be set to the desired level for the desired player, whereupon the file has to be saved with ** CTRL + S OR Hit Save Content**.
 
-! [] (https://screensaver01.zap-hosting.com/index.php/s/9RsLFQqCEGbsXcM/preview)
+![](/img/op/op5.png)
 
-In order for the changes to take effect, the server must be restarted, which can be done by holding the red stop button in the server's interface.
+- In order for the changes to take effect, the server must be restarted, which can be done in the console tab of the server's interface.
