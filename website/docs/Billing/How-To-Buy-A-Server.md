@@ -4,24 +4,17 @@
 
 - Register or sign in to the **billing** panel https://billing.spawnhosting,com.
 
+![](/img/billingpanel/step1.png)
+
 ``step 2``
  
- - Once logged in, go to the profile settings and verify with discord.
+ - Once logged in, go to profile settings and verify with ``Email`` and ``discord``.  
 
-:::important
-
-Your account needs to be verified with discord so we can support you more efficiently when you open a ticket.
-
+:::caution
+You will have to verfiy your email / discord accounts or otherwise you will be not able to create a server.
 :::
 
-``step 3``
-- Verify your email if you have't already, this is similar to verifying discord.
-
-``step  4``
-
-- Click the store section.
-- Chose how many credits you want to top-up onto your account.
-- Payout with paypal.
+ ![](/img/billingpanel/step2.png)
 
 :::info
 
@@ -29,10 +22,21 @@ Your account needs to be verified with discord so we can support you more effici
 
 :::
 
-``step 5``
+``step 3``
 
+- Click the store section.
+- Chose how many credits you want to add onto your account.
+- Payout with paypal.
+
+![](/img/billingpanel/step3.png)
+
+``step  4``
 - Go to the servers tab.
     - Click create server.
     - Select the configuration you want.
 
-You server is now ready. You can login the gamepanel using the same login information.
+![](/img/billingpanel/step4.png)  
+
+![](/img/billingpanel/step5.gif) 
+
+- Your server is now ready. You can login the ``Game-Panel`` using the same login information.
