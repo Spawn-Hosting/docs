@@ -7,6 +7,10 @@ This interface can be used to manage servers that are already running and access
 The interface can then be accessed with a specific remote maintenance program
 and the server can thus be managed.
 
+:::info
+If Your Want To Enable ``RCON`` Open A Ticket On Discord And Ask For A Extra Port.
+:::
+
 ## How do I use RCON in Minecraft?
 In order to be able to use RCON with Minecraft, it must first be entered in the file `server.properties`
 to be activated. To do this, look for the line with the following content:
@@ -18,13 +22,15 @@ Remote maintenance interface can connect. The password for this can be found in 
 with the following content:
 `rcon.password =`
 
+![](/img/rcon/rcon1.png)
+
 To set the password, write your desired password after the equal sign.
 Once that is done, all you have to do is find out what the port of your RCON interface is.
 This can be read and specified in the line `rcon.port`. The port consists of one
 up to five-digit number between `1` and` 65534`.
 
 Once you have found out the port, open any RCON program with which you can access the
-Interface. A recommendation on our part for an RCON-compatible program would be the [RCON Console] (https://sourceforge.net/projects/rconconsole/).
+Interface. A recommendation on our part for an RCON-compatible program would be the [RCON Console](https://sourceforge.net/projects/rconconsole/).
 Now enter the IP address of your server in the text field `Address` above. Right next to it the
 RCON port of your game server and behind it the password. Now make sure that your game server is running
 and is reachable and now connect to the program via RCON on your server.

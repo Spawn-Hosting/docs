@@ -24,13 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Spawn-Hosting/docs',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/Spawn-Hosting/docs',
+          editUrl: 'https://github.com/Spawn-Hosting/docs/tree/main/website',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,7 +37,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Docs',
+        title: 'Spawn-Hosting',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -53,9 +47,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // Website .
           {
             href: 'https://billing.spawnhosting.com',
             label: 'Billing-Panel',
@@ -75,7 +69,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
@@ -104,10 +98,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',

@@ -5,7 +5,7 @@ Get a custom domain for your Minecraft server!
 
 :::
 
-- Firstly you have to buy a domain or get a free one from **https://freenom.com**.
+- Firstly you have to buy a domain or get a free one from **[Freenom](https://freenom.com)**.
 - Setup the domain on **[Cloudflare](https://www.cloudflare.com/)**.
 
 # Getting a domain
