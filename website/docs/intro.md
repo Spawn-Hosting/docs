@@ -4,5 +4,4 @@ sidebar_position: 1
 
 # Welcome To Spawn-Hosting Docs
 
-You will 
-
+![](/img/soon.gif)
