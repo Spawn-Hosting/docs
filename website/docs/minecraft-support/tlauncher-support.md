@@ -21,7 +21,7 @@ Turn off the server before editing files.
 ![Locale Dropdown](/img/offlinemode/ofm2.png)
 
 ``step 3``
-- Locate ``offline-mode: true`` and change **true** to **false**.
+- Locate ``online-mode: true`` and change **true** to **false**.
 
 ![Locale Dropdown](/img/offlinemode/ofm3.png)
 
